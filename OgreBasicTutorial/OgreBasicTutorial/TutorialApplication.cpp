@@ -47,7 +47,6 @@ void TutorialApplication::createScene(void)
 	// Create a diffuse light source.
 	Ogre::Light* light = mSceneMgr->createLight("MainLight");
 	light->setPosition(20, 80, 50);
-
 }
 //---------------------------------------------------------------------------
 
