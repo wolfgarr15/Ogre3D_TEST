@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(OGRE_SDK_32)\include\OGRE;$(OGRE_SDK_32)\include\OGRE\Overlay;$(BOOST_ROOT)\boost;D:\Visual Studio 2013\Repos\DEPENDENCIES\Ogre_1_9_0\Samples\Common\include;$(OGRE_SDK_32)\include\OIS;$(OGRE_SDK_32)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OGRE_SDK_32)\include;$(OGRE_SDK_32)\include\OIS;$(OGRE_SDK_32)\include\OGRE;$(BOOST_ROOT);$(OGRE_SDK_32)\include\OGRE\Overlay</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -63,7 +63,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(OGRE_SDK_32)\include\OGRE;$(OGRE_SDK_32)\include\OGRE\Overlay;D:\Visual Studio 2013\Repos\DEPENDENCIES\Ogre_1_9_0\Samples\Common\include;$(OGRE_SDK_32)\include\OIS;$(OGRE_SDK_32)\include;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OGRE_SDK_32)\include;$(OGRE_SDK_32)\include\OIS;$(OGRE_SDK_32)\include\OGRE;$(BOOST_ROOT);$(OGRE_SDK_32)\include\OGRE\Overlay</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
